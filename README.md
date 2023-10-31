@@ -11,5 +11,5 @@ Den här koden gör så att Gulkalendern tror du har vunnit massor av gånger i 
 -----------
 eller
 1. Gå till [Gulkalendern](https://gulkalender.se).<br>
-2. klistra in koden i konsollen.
+2. klistra in koden i konsollen.<br>
 **Glöm inte att ändra telfonnummret!**
