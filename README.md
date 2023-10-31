@@ -5,7 +5,7 @@ Den här koden gör så att Gulkalendern tror du har vunnit massor av gånger i 
 <br>
 ![image](https://github.com/Muminwilmer/Spam-Phone/assets/113240095/cf5d7a07-e6e9-4dfa-9055-6f35617c8bef)<br>
 <br>
-1. Hosta [koden](https://raw.githubusercontent.com/Muminwilmer/Spam-Phone/main/spam.js) med nodeJS<br>
+1. Hosta [koden](https://raw.githubusercontent.com/Muminwilmer/Spam-Phone/main/spam.js) med nodejs<br>
 **Glöm inte att ändra telfonnummret!**<br>
 
 -----------
