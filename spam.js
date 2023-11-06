@@ -52,9 +52,11 @@ function count(worked) {
   } else {
     fail++;
   }
+  clear()
   console.log("# ----------- #")
   console.log(`Messages Sent: ${work}`);
   console.log(`Messages Failed: ${fail}`);
+  console.log("# ----------- #")
 }
 
 getReward()
