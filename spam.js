@@ -3,6 +3,14 @@ let fail = 0;
 
 function getReward() {
   const Phone = ""; /*- - - - PHONE NUMBER HERE! - - - -*/
+  
+  if (Phone == ""){
+      console.clear()
+      console.log("# ----------- #")
+      console.log("Enter a Phone Number!")
+      console.log("# ----------- #")
+      return;
+  }
   const url = 'https://swetrocagul23api.azurewebsites.net/api/v1/capturedigitalwin';
   const headers = {
     'Sec-Ch-Ua': '"Google Chrome";v="117", "Not;A=Brand";v="8", "Chromium";v="117"',
