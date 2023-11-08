@@ -43,9 +43,9 @@ function getReward() {
     .then(response => {
       response.json()
       if (response.status === 200) {
-        count(true);
+        count(true,number);
       } else {
-        count(false);
+        count(false,number);
       }
       getReward()
     })
@@ -54,7 +54,7 @@ function getReward() {
     });
 }
 
-function count(worked) {
+function count(worked,number) {
   if (worked) {
     work++;
   } else {
@@ -62,6 +62,7 @@ function count(worked) {
   }
   console.clear()
   console.log("# ----------- #")
+  console.log(`Phone Number: ${number}`)
   console.log(`Messages Sent: ${work}`);
   console.log(`Messages Failed: ${fail}`);
   console.log("# ----------- #")
