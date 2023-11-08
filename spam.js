@@ -3,7 +3,8 @@ let fail = 0;
 
 function getReward() {
   const Phone = ""; /*- - - - PHONE NUMBER HERE! - - - -*/
-  
+
+  /*Not here*/
   if (Phone == ""){
       console.clear()
       console.log("# ----------- #")
@@ -43,9 +44,9 @@ function getReward() {
     .then(response => {
       response.json()
       if (response.status === 200) {
-        count(true,number);
+        count(true,Phone);
       } else {
-        count(false,number);
+        count(false,Phone);
       }
       getReward()
     })
@@ -54,7 +55,7 @@ function getReward() {
     });
 }
 
-function count(worked,number) {
+function count(worked,Phone) {
   if (worked) {
     work++;
   } else {
@@ -62,7 +63,7 @@ function count(worked,number) {
   }
   console.clear()
   console.log("# ----------- #")
-  console.log(`Phone Number: ${number}`)
+  console.log(`Phone Number: ${Phone}`)
   console.log(`Messages Sent: ${work}`);
   console.log(`Messages Failed: ${fail}`);
   console.log("# ----------- #")
